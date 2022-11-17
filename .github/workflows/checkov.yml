@@ -20,3 +20,4 @@ jobs:
         with:
           directory: terraform/
           quiet: true
+          skip_check: CKV_AZURE_42,CKV_AZURE_110
