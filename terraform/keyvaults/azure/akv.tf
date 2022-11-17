@@ -22,7 +22,7 @@ resource "azurerm_key_vault" "dov_akv" {
     ]
 
     secret_permissions = [
-      "Get",
+      "Get","List","Set","Delete"
     ]
 
     storage_permissions = [
