@@ -10,3 +10,5 @@ resource "azurerm_storage_account" "sa" {
   cross_tenant_replication_enabled = false
   shared_access_key_enabled        = true
 }
+
+# TODO: grant app access to sa, 17d1049b-9a84-46fb-8f53-869881c3d3ab
