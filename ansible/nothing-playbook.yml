@@ -1,9 +1,9 @@
 ---
-  - name: The Nothing Playbook
-    hosts: localhost
-    connection: local
+- name: The Nothing Playbook
+  hosts: localhost
+  connection: local
 
-    tasks:
-      - name: Print Message
-        ansible.builtin.debug:
-          msg: 'Playbook succeeded'
+  tasks:
+    - name: Print Message
+      ansible.builtin.debug:
+        msg: 'Playbook succeeded'
