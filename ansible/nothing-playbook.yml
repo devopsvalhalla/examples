@@ -7,3 +7,7 @@
     - name: Print Message
       ansible.builtin.debug:
         msg: 'Playbook succeeded'
+
+    - name: Print Variable
+      ansible.builtin.debug:
+        var: '{{ example_var | default('default') }}'
