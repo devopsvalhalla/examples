@@ -1,9 +1,0 @@
----
-- name: Download File from Storage Account
-  hosts: localhost
-  connection: local
-
-  tasks:
-    - name: fix me
-      ansible.builtin.debug:
-        msg: "fix this"
